@@ -98,7 +98,7 @@ const VerifiedLanyard = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
-                  to="/apply-disabilities"
+                  to="/apply-verified-lanyard"
                   className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
                 >
                   Apply Now
@@ -313,7 +313,7 @@ const VerifiedLanyard = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/apply-disabilities"
+              to="/apply-verified-lanyard"
               className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
             >
               Apply for Lanyard

@@ -18,6 +18,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import ApplyDisabilities from './pages/ApplyDisabilities';
 import ApplyCarers from './pages/ApplyCarers';
 import ApplyCustomerSupport from './pages/ApplyCustomerSupport';
+import ApplyVerifiedLanyard from './pages/ApplyVerifiedLanyard';
 import VerifiedLanyard from './pages/VerifiedLanyard';
 import RenewDisabilities from './pages/RenewDisabilities';
 import RenewCarers from './pages/RenewCarers';
@@ -84,6 +85,7 @@ function App() {
                   <Route path="/apply-disabilities" element={<ApplyDisabilities />} />
                   <Route path="/apply-carers" element={<ApplyCarers />} />
                   <Route path="/apply-customer-support" element={<ApplyCustomerSupport />} />
+                  <Route path="/apply-verified-lanyard" element={<ApplyVerifiedLanyard />} />
                   <Route path="/verified-lanyard" element={<VerifiedLanyard />} />
                   <Route path="/renew-disabilities" element={<RenewDisabilities />} />
                   <Route path="/renew-carers" element={<RenewCarers />} />
